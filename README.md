@@ -25,8 +25,46 @@ All the results were executed in ARIS HPC https://hpc.grnet.gr/ and the log outp
 Explanations of files and Execution:
 
 1) GAIN MNIST
+      - images
+      
+      - Multiple_Impute
+      
+      - GAIN_mnist.ipynb
+      
+      - input_data.py
+      
+      - slurm_mnist.sh
+       
+      - team1.mnist.log.zip
 
-2)GAIN-Pneumonia
+2) GAIN-Pneumonia
 
-3)GAIN-Reprod + GAIN-TD
+      - data_pneumonia
+      
+      - images_pneumonia
+      
+      - GAIN_pneumonia.ipynb
+      
+      - slurm_pneumonia.sh
+      
+      - team1.pneumonia.log.zip
 
+3) GAIN-Reprod + GAIN-TD
+
+      - data_no_labels
+      
+      - data_with_labels
+      
+      - plots
+      
+      - GAIN_reprod.ipynb
+      
+      - GAIN_td.ipynb
+      
+      - slurm_reprod.sh
+      
+      - slurm_td.sh
+      
+      - team1.gain_td.log.zip
+      
+      - team1.reprod.log.zip
