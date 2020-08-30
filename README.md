@@ -24,33 +24,7 @@ All the results were executed in ARIS HPC https://hpc.grnet.gr/ and the log outp
 
 Explanations of files and Execution:
 
-1) GAIN MNIST 
-
-      - images: contains the output images. Both noisy and imputed images from all type of architectures and missing rate 0.2 and 0.5
-      
-      - Multiple_Impute: contains the output images while GAIN is being trained. It outputs an image every 100 epoch.
-      
-      - GAIN_mnist.ipynb: Execution code
-      
-      - input_data.py: This file is being called by GAIN_mnist to download MNIST.
-      
-      - slurm_mnist.sh: ARIS HPC script to run GAIN_mnist. (Convert .ipynb files to .py)
-       
-      - team1.mnist.log.zip: log outputs of Mnist from ARIS HPC
-
-2) GAIN-Pneumonia
-
-      - data_pneumonia : Chest X-ray Pneumonia Dataset after being resized in 128x128 and grayscaled.
-      
-      - images_pneumonia: contains the output images. Both noisy and imputed images from all type of architectures and missing rate 0.2                           and 0.5
-      
-      - GAIN_pneumonia.ipynb: Execution code
-      
-      - slurm_pneumonia.sh: ARIS HPC script to run the GAIN_pneumonia. (Convert .ipynb files to .py)
-      
-      - team1.pneumonia.log.zip: log outputs of Pneumonia from ARIS HPC 
-
-3) GAIN-Reprod + GAIN-TD
+1) GAIN-Reprod + GAIN-TD
 
       - data_no_labels : Yoon's datasets used in his paper without labels
       
@@ -70,11 +44,51 @@ Explanations of files and Execution:
       
       - team1.reprod.log.zip: log outputs for GAIN
 
+
+2) GAIN MNIST 
+
+      - images: contains the output images. Both noisy and imputed images from all type of architectures and missing rate 0.2 and 0.5
+      
+      - Multiple_Impute: contains the output images while GAIN is being trained. It outputs an image every 100 epoch.
+      
+      - GAIN_mnist.ipynb: Execution code
+      
+      - input_data.py: This file is being called by GAIN_mnist to download MNIST.
+      
+      - slurm_mnist.sh: ARIS HPC script to run GAIN_mnist. (Convert .ipynb files to .py)
+       
+      - team1.mnist.log.zip: log outputs of Mnist from ARIS HPC
+
+3) GAIN-Pneumonia
+
+      - data_pneumonia : Chest X-ray Pneumonia Dataset after being resized in 128x128 and grayscaled.
+      
+      - images_pneumonia: contains the output images. Both noisy and imputed images from all type of architectures and missing rate                              0.2 and 0.5
+      
+      - GAIN_pneumonia.ipynb: Execution code
+      
+      - slurm_pneumonia.sh: ARIS HPC script to run the GAIN_pneumonia. (Convert .ipynb files to .py)
+      
+      - team1.pneumonia.log.zip: log outputs of Pneumonia from ARIS HPC 
+
+
 -------------------------------------------------------
 
 Dataset links:
 
+Letter: http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
 
+Spam:   http://archive.ics.uci.edu/ml/datasets/spambase
+
+Breast: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+
+News:   https://archive.ics.uci.edu/ml/datasets/online+news+popularity?fbclid=IwAR25BlNFWm5f3qPG8-9CahbrYwxl5zFuznD6sLa-8FJl6G2bWP-a17qB2qY
+
+Credit: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients?fbclid=IwAR24zSxaMV6-JzPETXxGPmG3G7BQ_FIJ5jgCFK3DUyKSQ2ZdH1NXr64dDG4#
+
+Mnist: http://yann.lecun.com/exdb/mnist/
+
+Chest X-ray Pneumonia: https://data.mendeley.com/datasets/rscbjbr9sj/2
 
 
 -------------------------------------------------------
