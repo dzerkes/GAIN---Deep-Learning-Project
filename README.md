@@ -3,11 +3,11 @@ Reproduction of GAIN from Yoon et al.
 ----------------------------------------------
 Semester project in course Deep learning of Data Science and Machine Learning MSc from ECE, NTUA.
 
-Marilia Trivyza  
+Marilia Trivyza @mftrivyza
 
-Maria Kaiktzoglou
+Maria Kaiktzoglou @Mary91gr
 
-Dimitris Zerkelidis
+Dimitris Zerkelidis @dzerkes
 
 ----------------------------------------------
 
