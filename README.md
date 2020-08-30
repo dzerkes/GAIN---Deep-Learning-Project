@@ -1,7 +1,7 @@
 # GAIN---Deep-Learning-Project
 Reproduction of GAIN from Yoon et al. 
 ----------------------------------------------
-Semester project in course Deep learning of Machine Learning and Data Science master in NTUA ECE
+Semester project in course Deep learning of "Data Science and Machine Learning" Master's program from ECE, NTUA.
 
 Maria-Filippa Trivyza  
 
@@ -24,32 +24,7 @@ All the results were executed in ARIS HPC https://hpc.grnet.gr/ and the log outp
 
 Explanations of files and Execution:
 
-1) GAIN MNIST
-      - images
-      
-      - Multiple_Impute
-      
-      - GAIN_mnist.ipynb
-      
-      - input_data.py
-      
-      - slurm_mnist.sh
-       
-      - team1.mnist.log.zip
-
-2) GAIN-Pneumonia
-
-      - data_pneumonia
-      
-      - images_pneumonia
-      
-      - GAIN_pneumonia.ipynb
-      
-      - slurm_pneumonia.sh
-      
-      - team1.pneumonia.log.zip
-
-3) GAIN-Reprod + GAIN-TD
+1) GAIN-Reprod + GAIN-TD
 
       - data_no_labels
       
@@ -68,3 +43,29 @@ Explanations of files and Execution:
       - team1.gain_td.log.zip
       
       - team1.reprod.log.zip
+      
+2) GAIN-MNIST
+
+      - images
+      
+      - Multiple_Impute
+      
+      - GAIN_mnist.ipynb
+      
+      - input_data.py
+      
+      - slurm_mnist.sh
+       
+      - team1.mnist.log.zip
+
+3) GAIN-Pneumonia
+
+      - data_pneumonia
+      
+      - images_pneumonia
+      
+      - GAIN_pneumonia.ipynb
+      
+      - slurm_pneumonia.sh
+      
+      - team1.pneumonia.log.zip
