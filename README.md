@@ -61,7 +61,7 @@ Explanations of files and Execution:
 
 3) GAIN-Pneumonia
 
-      - data_pneumonia : Chest X-ray (Pneumonia) Dataset after being resized in 128x128 and grayscaled.
+      - pneumonia_preprocessing.ipynb : Chest X-ray (Pneumonia) preprocessing. Because dataset is too large in this notebook we   provide download links and preprocessing code as in our research.
       
       - images_pneumonia: contains the output images. Both noisy and imputed images from all type of architectures and missing rate 0.2 and 0.5.
       
@@ -95,5 +95,16 @@ Chest X-ray (Pneumonia): https://data.mendeley.com/datasets/rscbjbr9sj/2
 
 Libraries:
 
+numpy 1.16.4
 
+Pytorch 1.4
 
+tensorflow 2.3.0
+
+Python 3.1
+
+scikit-learn 0.22.1
+
+scipy  1.4.1
+
+seaborn  0.10.1
