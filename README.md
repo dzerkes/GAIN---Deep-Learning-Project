@@ -1,7 +1,7 @@
 # GAIN---Deep-Learning-Project
 Reproduction of GAIN from Yoon et al. 
 ----------------------------------------------
-Semester project in course Deep learning of "Data Science and Machine Learning" Master's program from ECE, NTUA.
+Semester project in course Deep learning of Machine Learning and Data Science master in NTUA ECE
 
 Maria-Filippa Trivyza  
 
@@ -24,48 +24,62 @@ All the results were executed in ARIS HPC https://hpc.grnet.gr/ and the log outp
 
 Explanations of files and Execution:
 
-1) GAIN-Reprod + GAIN-TD
+1) GAIN MNIST 
 
-      - data_no_labels
+      - images: contains the output images. Both noisy and imputed images from all type of architectures and missing rate 0.2 and 0.5
       
-      - data_with_labels
+      - Multiple_Impute: contains the output images while GAIN is being trained. It outputs an image every 100 epoch.
       
-      - plots
+      - GAIN_mnist.ipynb: Execution code
       
-      - GAIN_reprod.ipynb
+      - input_data.py: This file is being called by GAIN_mnist to download MNIST.
       
-      - GAIN_td.ipynb
-      
-      - slurm_reprod.sh
-      
-      - slurm_td.sh
-      
-      - team1.gain_td.log.zip
-      
-      - team1.reprod.log.zip
-      
-2) GAIN-MNIST
-
-      - images
-      
-      - Multiple_Impute
-      
-      - GAIN_mnist.ipynb
-      
-      - input_data.py
-      
-      - slurm_mnist.sh
+      - slurm_mnist.sh: ARIS HPC script to run GAIN_mnist. (Convert .ipynb files to .py)
        
-      - team1.mnist.log.zip
+      - team1.mnist.log.zip: log outputs of Mnist from ARIS HPC
 
-3) GAIN-Pneumonia
+2) GAIN-Pneumonia
 
-      - data_pneumonia
+      - data_pneumonia : Chest X-ray Pneumonia Dataset after being resized in 128x128 and grayscaled.
       
-      - images_pneumonia
+      - images_pneumonia: contains the output images. Both noisy and imputed images from all type of architectures and missing rate 0.2                           and 0.5
       
-      - GAIN_pneumonia.ipynb
+      - GAIN_pneumonia.ipynb: Execution code
       
-      - slurm_pneumonia.sh
+      - slurm_pneumonia.sh: ARIS HPC script to run the GAIN_pneumonia. (Convert .ipynb files to .py)
       
-      - team1.pneumonia.log.zip
+      - team1.pneumonia.log.zip: log outputs of Pneumonia from ARIS HPC 
+
+3) GAIN-Reprod + GAIN-TD
+
+      - data_no_labels : Yoon's datasets used in his paper without labels
+      
+      - data_with_labels: Yoon's datasets used in his paper with labels
+      
+      - plots: Similar plots as in GAIN paper to compare the two architectures that we are testing (GAIN AND GAIN-TD).
+      
+      - GAIN_reprod.ipynb: GAIN reproduction execution code
+      
+      - GAIN_td.ipynb: GAIN-TD reproduction execution code
+      
+      - slurm_reprod.sh: ARIS HPC script to run GAIN_reprod
+      
+      - slurm_td.sh:  ARIS HPC script to run GAIN_td
+      
+      - team1.gain_td.log.zip: log outputs for GAIN-TD
+      
+      - team1.reprod.log.zip: log outputs for GAIN
+
+-------------------------------------------------------
+
+Dataset links:
+
+
+
+
+-------------------------------------------------------
+
+Libraries:
+
+
+
